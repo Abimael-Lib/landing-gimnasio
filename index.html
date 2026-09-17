@@ -1,0 +1,122 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="media/dumbbell-solid-full.svg">
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tilt+Neon&display=swap');
+        </style>
+
+
+
+        <title>Gimnasio</title>
+    </head>
+    <body>
+        <header>
+            <div class="header__container">
+                <div class="header__logo">
+                    <a href="#">
+                        <img src="media/dumbbell-solid-full.svg" alt="Logo del negocio.">
+                    </a>
+                </div>
+                <nav class="header__nav">
+                    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                    
+                    <label for="menu-toggle" class="hamburguer">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    
+                    <ul class="nav__list">
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#contacto">Contactanos</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#testimonios">Testimonios</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <h1>Transformá tu cuerpo con entrenamiento personalizado</h1>
+                <h2>Nos adaptamos a tu situación actual y planificamos tu objetivo</h2>
+                <img class="hero__image" src="media/levantamientoPesas.jpg" alt="Mujer levantando pesas">
+                <a href="#contacto" class="hero__button">Contactanos</a>
+            </section>
+            <h2>Servicios</h2>
+            <section class="servicios" id="servicios">
+                <div class="servicios__card">
+                    <h3>Entrenamiento de fuerza</h3>
+                    <p>Ofrecemos entrenamientos personalizados con la finalidad de aumentar tu fuerza muscular</p>
+                    <img src="media/entrenamientoFuerza.jpg" alt="Entrenamiento de fuerza">
+                </div>
+                <div class="servicios__card">
+                    <h3>Aumento de masa muscular</h3>
+                    <p>Ofrecemos entrenamientos personalizados con la finalidad de aumentar tu masa muscular</p>
+                    <img src="media/aumentoDeMusculo.jpg" alt="Entrenamiento para aumento de masa muscular">
+                </div>
+                <div class="servicios__card">
+                    <h3>Entrenamiento de resistencia</h3>
+                    <p>Ofrecemos entrenamientos personalizados con la finalidad de aumentar tu resistencia</p>
+                    <img src="media/entrenamientoDeResistencia.jpg" alt="Entrenamiento de resistencia">
+                </div>
+            </section>
+            <section class="contacto" id="contacto">
+                <form action="#">
+                    <h2>Contactanos</h2>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre" id="nombre" maxlength="30" placeholder="fulano de tal" required>
+
+                    <label for="telefono">Teléfono: </label>
+                    <input type="text" name="telefono" id="telefono" maxlength="30" placeholder="33333333" required>
+
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" maxlength="30" placeholder="hola@gmail.com" required>
+                    
+                    <label for="mensaje">Dejanos un mensaje: </label>
+                    <textarea name="mensaje" id="mensaje"></textarea>
+
+                    <input type="submit" name="submit_button" id="submit_button">
+                </form>
+            </section>
+            <section class="nosotros" id="nosotros">
+                <h2>Somos Red Fits</h2>
+                <p>Un gimnasio enfocado en explotar el máximo potencial de nuestros clientes</p>
+                <img src="media/gimnasio.jpg" alt="Gimnasio">
+            </section>
+            <h2>Testimonios</h2>
+            <section class="testimonios" id="testimonios">
+                <div class="testimonios__card">
+                    <h3>Mariano Perez</h3>
+                    <p>Antes levantaba 5 kilos con dificultades, ahora puedo levantar 15 kilos sin problemas</p>
+                    <img src="media/Mariano perez.jpg" alt="Imagen de un hombre">
+                </div>
+                <div class="testimonios__card">
+                    <h3>Eugenio Gomez</h3>
+                    <p>Tenía problemas para ganar masa muscular pero gracias a su entrenamiento personalizado aumenté 5 kilos en masa muscular</p>
+                    <img src="media/eugenio gomez.jpg" alt="Imagen de un hombre">
+                </div>
+                <div class="testimonios__card">
+                    <h3>Maria Jose</h3>
+                    <p>Soy corredora de maratón y tenía problemas para mantener el ritmo luego de cierta distancia, gracias a su entrenamiento ahora puedo recorrer más distancia sin cansarme</p>
+                    <img src="media/maria jose.jpg" alt="Imagen de una mujer">
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>© Copyright 2026</p>
+            <h4>Redes sociales</h4>
+            <ul>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                <li><a href="https://www.x.com">X</a></li>
+                <li><a href="https://wa.me/549XXXXXXXXXX">Whatsapp</a></li>
+            </ul>
+        </footer>
+
+    </body>
+    </html>
