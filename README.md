@@ -8,3 +8,4 @@ Landing page responsive para un gimnasio ficticio.
 - Menú hamburguesa (CSS puro)
 
 ## Demo
+https://sunny-pika-bd96d2.netlify.app/
